@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salário com Bônus</title>
+</head>
+
+<body>
+    <form name="frmFinal">
+        <img src="mulher.jpg" width=300 height=200>
+        <img src="homem.jpg" width=300 height=200>
+        <h1>Empresa InfoBlack - Salário com bônus</h1>
+        Digite seu nome:
+        <input type="text" placeholder="Seu nome" name="txtNome">
+        <p>
+            Digite seu salário fixo: R$
+            <input type="text" placeholder="Salário fixo" name="txtFixo" size="6">
+        </p>
+        <p>
+            Montante total de vendas: R$
+            <input type="text" placeholder="Bônus vendas" name="txtBonus">
+        </p>
+        <input type="button" value="Calcular" onclick="calcularSalario()">
+        <input type="reset" value="Tentar novamente">
+
+        <hr>
+        <p>
+            Funcionário:
+            <input type="text" placeholder="Nome" name="txtColaborador" disabled></p>
+
+        <p>
+            Valor em real da porcentagem de 15%: R$
+            <input type="text" placeholder="15% bônus = " name="txtPorcentagem" disabled>
+        </p>
+
+        Salário com Bônus de 15% : R$
+        <input type="text" placeholder="Salário com Bônus" name="txtStatus" disabled>
+        <hr>
+
+        <script src="salarioBonus.js"></script>
+    </form>
+</body>
+
+</html>
